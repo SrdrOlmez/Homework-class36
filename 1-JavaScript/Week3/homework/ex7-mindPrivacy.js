@@ -34,8 +34,7 @@ function filterPrivateData(newRecord) {
   // TODO complete this function
   const nonPrivate = [];
   for (const { name, occupation, email } of newRecord) {
-    const newArr = { name, occupation, email };
-    nonPrivate.push(newArr);
+    nonPrivate.push({ name, occupation, email });
   }
   return nonPrivate;
 }
