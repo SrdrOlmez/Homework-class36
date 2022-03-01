@@ -1,24 +1,23 @@
-//cspell: disable
-/*------------------------------------------------------------------------------
-Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Browsers/Week1#exercise-1-the-book-list
-
-I'd like to display my three favorite books inside a nice webpage!
-
-1. Iterate through the array of books.
-2. For each book, create a `<p>`
-element with the book title and author.
-3. Use a `<ul>`  and `<li>` to display the books.
-4. Add an `<img>` to each book that links to a URL of the book cover.
-5. Change the style of the book depending on whether you have read it(green) or not(red).
-
-The end result should look something like this:
-https: //hyf-js2-week1-makeme-ex1-demo.herokuapp.com/
-
------------------------------------------------------------------------------*/
-//cspell: enable
-
 function createBookList(books) {
-  // TODO your code goes in here, return the ul element
+  const list = document.createElement('ul');
+
+  books.forEach((books) => {
+    const listItem = document.createElement('li');
+    const par = document.createElement('p');
+    const image = document.createElement('img');
+    par.textContent = `${books.title} written by ${books.author}`;
+    image.src = `https://covers.openlibrary.org/b/isbn/${books.isbn}-M.jpg`;
+    image.alt = `${books.title}`;
+    books.alreadyRead
+      ? (listItem.style.backgroundColor = 'green')
+      : (listItem.style.backgroundColor = 'red');
+
+    listItem.appendChild(par);
+    listItem.appendChild(image);
+    list.appendChild(listItem);
+  });
+
+  return list;
 }
 
 function main() {
