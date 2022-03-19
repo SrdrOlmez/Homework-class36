@@ -13,7 +13,7 @@
   "osInfo": {
     "platform": "darwin",
     "distro": "macOS",
-    "release": "12.0.1"
+    "release": "12.2.1"
   },
   "vscodeInfo": {
     "version": "1.64.2",
@@ -38,7 +38,8 @@
       "eslint.autoFixOnSave": true,
       "files.autoSave": "onFocusChange",
       "prettier.singleQuote": true,
-      "prettier.trailingComma": "all"
+      "prettier.trailingComma": "all",
+      "window.zoomLevel": 1
     }
   }
 }

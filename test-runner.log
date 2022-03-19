@@ -1,0 +1,97 @@
+2022-03-07 04:36:11 info: ----------------------------------------------
+2022-03-07 04:36:11 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-03-07 04:36:11 info: ----------------------------------------------
+2022-03-07 04:36:18 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should have all TODO comments removed
+✕ giveCompliment should include a `compliments` array inside its function body
+✕ giveCompliment the `compliments` array should be initialized with 10 strings
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="/Users/serdar/Homework-class36/test-runner/CustomReporter.js"
+2022-03-07 04:36:24 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:42:19 - Unknown word (Serdar)
+
+2022-03-07 04:39:49 info: ----------------------------------------------
+2022-03-07 04:39:49 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-03-07 04:39:49 info: ----------------------------------------------
+2022-03-07 04:39:54 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should have all TODO comments removed
+✕ giveCompliment should include a `compliments` array inside its function body
+✕ giveCompliment the `compliments` array should be initialized with 10 strings
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="/Users/serdar/Homework-class36/test-runner/CustomReporter.js"
+2022-03-07 04:40:00 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:42:19 - Unknown word (Serdar)
+
+2022-03-07 04:47:32 info: ----------------------------------------------
+2022-03-07 04:47:32 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-03-07 04:47:32 info: ----------------------------------------------
+2022-03-07 04:47:39 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should include a `compliments` array inside its function body
+✕ giveCompliment the `compliments` array should be initialized with 10 strings
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="/Users/serdar/Homework-class36/test-runner/CustomReporter.js"
+2022-03-07 04:47:47 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:19 - Unknown word (Serdar)
+
+2022-03-07 04:51:06 info: ----------------------------------------------
+2022-03-07 04:51:06 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-03-07 04:51:06 info: ----------------------------------------------
+2022-03-07 04:51:10 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: You are great, HackYourFuture !
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="/Users/serdar/Homework-class36/test-runner/CustomReporter.js"
+2022-03-07 04:51:17 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:19 - Unknown word (Serdar)
+
+2022-03-07 04:52:24 info: ----------------------------------------------
+2022-03-07 04:52:24 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-03-07 04:52:24 info: ----------------------------------------------
+2022-03-07 04:52:29 info: All unit tests passed.
+2022-03-07 04:52:35 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:19 - Unknown word (Serdar)
+
+2022-03-07 05:03:01 info: ----------------------------------------
+2022-03-07 05:03:01 info: >>> Running Unit Test `ex2-dogYears` <<<
+2022-03-07 05:03:01 info: ----------------------------------------
+2022-03-07 05:03:08 info: All unit tests passed.
+2022-03-07 05:03:15 info: All steps were completed successfully
+2022-03-07 05:06:38 info: -------------------------------------------
+2022-03-07 05:06:38 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-03-07 05:06:38 info: -------------------------------------------
+2022-03-07 05:06:43 error: *** Unit Test Error Report ***
+
+✕ tellFortune `numKids` should be an array initialized with 5 elements
+✕ tellFortune `locations` should be an array initialized with 5 elements
+✕ tellFortune `partnerNames` should be an array initialized with 5 elements
+✕ tellFortune `jobTitles` should be an array initialized with 5 elements
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="/Users/serdar/Homework-class36/test-runner/CustomReporter.js"
+2022-03-07 05:06:48 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:52:34 - Unknown word (Mehmet)
+ex3-tellFortune.js:52:52 - Unknown word (Rebecca)
+
+2022-03-07 05:11:11 info: -------------------------------------------
+2022-03-07 05:11:11 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-03-07 05:11:11 info: -------------------------------------------
+2022-03-07 05:11:16 info: All unit tests passed.
+2022-03-07 05:11:22 info: All steps were completed successfully
