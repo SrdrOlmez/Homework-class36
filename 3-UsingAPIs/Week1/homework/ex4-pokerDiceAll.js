@@ -27,9 +27,8 @@ exercise file.
 const rollDie = require('../../helpers/pokerDiceRoller');
 
 function rollDice() {
-  // TODO Refactor this function
   const dice = [1, 2, 3, 4, 5];
-  return rollDie(1);
+  return Promise.all(dice.map((elm) => rollDie(elm)));
 }
 
 function main() {
@@ -43,3 +42,8 @@ if (process.env.NODE_ENV !== 'test') {
   main();
 }
 module.exports = rollDice;
+
+// The Promise.all() method waits for all the promises
+// to be resolved independent of each other(asynchronously).
+// Thats why, even if the dice has not yet finished
+// it's roll continue to do so.
