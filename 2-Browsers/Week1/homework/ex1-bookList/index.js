@@ -1,12 +1,17 @@
 function createBookList(books) {
   const list = document.createElement('ul');
 
-  books.forEach((books) => {
+  books.forEach((books, i) => {
+    const assetsImg = [
+      'the_design_of_everyday_things.jpg',
+      'the_most_human_human.jpg',
+      'the_pragmatic_programmer.jpg',
+    ];
     const listItem = document.createElement('li');
     const par = document.createElement('p');
     const image = document.createElement('img');
     par.textContent = `${books.title} written by ${books.author}`;
-    image.src = `https://covers.openlibrary.org/b/isbn/${books.isbn}-M.jpg`;
+    image.src = `./assets/${assetsImg[i]}`;
     image.alt = `${books.title}`;
     books.alreadyRead
       ? (listItem.style.backgroundColor = 'green')
@@ -31,7 +36,7 @@ function main() {
     {
       title: 'The Most Human Human',
       author: 'Brian Christian',
-      isbn: '978-1617933431',
+      isbn: '978-0307476708',
       alreadyRead: true,
     },
     {
