@@ -456,3 +456,28 @@ Command failed: npx jest ex5-wallet.test.js --colors --reporters="/Users/serdar/
 2022-02-22 10:26:11 info: --------------------------------------
 2022-02-22 10:26:15 info: All unit tests passed.
 2022-02-22 10:26:20 info: All steps were completed successfully
+2022-03-22 05:32:01 info: ------------------------------------------------------
+2022-03-22 05:32:01 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-03-22 05:32:01 info: ------------------------------------------------------
+2022-03-22 05:32:06 info: All unit tests passed.
+2022-03-22 05:32:11 info: All steps were completed successfully
+2022-03-22 05:33:14 info: -------------------------------------------------
+2022-03-22 05:33:14 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-03-22 05:33:14 info: -------------------------------------------------
+2022-03-22 05:33:17 info: All unit tests passed.
+2022-03-22 05:33:20 info: All steps were completed successfully
+2022-03-22 05:33:31 info: -------------------------------------------------
+2022-03-22 05:33:31 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-03-22 05:33:31 info: -------------------------------------------------
+2022-03-22 05:33:33 info: All unit tests passed.
+2022-03-22 05:33:36 info: All steps were completed successfully
+2022-03-22 05:34:11 info: ------------------------------------------
+2022-03-22 05:34:11 info: >>> Running Unit Test `ex4-observable` <<<
+2022-03-22 05:34:11 info: ------------------------------------------
+2022-03-22 05:34:13 info: All unit tests passed.
+2022-03-22 05:34:16 info: All steps were completed successfully
+2022-03-22 05:34:32 info: --------------------------------------
+2022-03-22 05:34:32 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-03-22 05:34:32 info: --------------------------------------
+2022-03-22 05:34:34 info: All unit tests passed.
+2022-03-22 05:34:37 info: All steps were completed successfully
