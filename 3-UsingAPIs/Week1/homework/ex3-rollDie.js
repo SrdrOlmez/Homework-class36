@@ -56,7 +56,7 @@ if (process.env.NODE_ENV !== 'test') {
 module.exports = rollDie;
 
 // The problem doesn't occur anymore.
-// Because, we roll only when our 'roll' equals to 'randomRollsToDo'.
+// Because, we resolve only when our 'roll' equals to 'randomRollsToDo'.
 // If it's rolled off the table, our promise is not fulfilled(failed).
 // If our promise is failed(rejected), it means we haven't fulfilled our promise(resolved).
 // So it will keep rolling until resolved the scheduled rolls.
