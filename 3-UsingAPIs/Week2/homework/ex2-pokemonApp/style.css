@@ -1,1 +1,26 @@
-/* add your styling here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 7rem;
+  margin: 10px;
+  padding: 5px;
+}
+
+select {
+  width: 7rem;
+  margin: 10px;
+  padding: 5px;
+}
+
+img {
+  width: 7rem;
+}
